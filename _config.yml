@@ -1,0 +1,52 @@
+# GitHub Pages Configuration
+theme: jekyll-theme-cayman
+title: Umar Ranginwala - AI/ML Portfolio
+description: >-
+  Master's Thesis Portfolio - M.Sc Artificial Intelligence & Machine Learning
+  Gujarat University | Deep Learning | Computer Vision | Financial Forecasting
+
+author:
+  name: Umar Ranginwala
+  github: umarranginwala
+  linkedin: umarranginwala
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.docx"
+  - "*.doc"
+  - "*.pdf"
+  - .DS_Store
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO settings
+twitter:
+  username: umarranginwala
+  card: summary
+
+# Analytics (optional - you can add your Google Analytics ID here)
+# google_analytics: YOUR_GA_ID
+
+# Social links
+social:
+  name: Umar Ranginwala
+  links:
+    - https://github.com/umarranginwala
+    - https://www.linkedin.com/in/umarranginwala/
