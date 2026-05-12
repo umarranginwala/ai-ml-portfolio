@@ -1,12 +1,12 @@
 # 💻 Umar Ranginwala
 
-> Hacking on Deep Learning. Previously @ Gujarat University (M.Sc AI/ML)
+> **Product Manager @ HighLevel** | Scaling WhatsApp from $XXXK to $XXM ARR (25× growth) | Ex-ClickPost | Ex-Quicko
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/umarranginwala/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/umarranginwala/?skipRedirect=true)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/umarranginwala)
 [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:umarranginwala3@gmail.com)
 
-Building AI systems from research to production. Focused on deep learning, computer vision, and time series forecasting.
+Product Manager with 5+ years experience scaling B2B SaaS products. **Scaled WhatsApp ARR 25× at HighLevel** (1.28M to 89.74M messages/month, +6,900% growth). Technical PM with M.Sc AI/ML, combining business strategy with hands-on engineering expertise.
 
 ---
 
