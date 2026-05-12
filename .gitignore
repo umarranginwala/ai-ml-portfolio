@@ -176,6 +176,9 @@ datasets/
 *.sqlite
 *.sqlite3
 
+# But keep deployment config
+!app.json
+
 # Images (keep small ones, exclude large datasets)
 # Uncomment if needed:
 # *.jpg

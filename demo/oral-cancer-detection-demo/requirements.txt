@@ -4,9 +4,8 @@
 Flask==2.3.3
 Werkzeug==2.3.7
 
-# Deep Learning
-tensorflow==2.13.0
-tensorflow-cpu==2.13.0; platform_machine != "arm64"
+# Deep Learning (CPU version for smaller size)
+tensorflow-cpu==2.13.0
 keras==2.13.0
 
 # Image Processing
@@ -19,4 +18,4 @@ numpy==1.24.3
 gunicorn==21.2.0
 
 # Python version requirement
-# Python 3.8, 3.9, 3.10, or 3.11
+# Python 3.9

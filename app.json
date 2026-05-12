@@ -1,0 +1,22 @@
+{
+  "name": "Oral Cancer Detection AI",
+  "description": "AI-powered oral cancer detection from medical images using CNN + Transfer Learning",
+  "repository": "https://github.com/umarranginwala/ai-ml-portfolio",
+  "logo": "https://raw.githubusercontent.com/umarranginwala/ai-ml-portfolio/main/demo/oral-cancer-detection-demo/static/icon.png",
+  "keywords": ["python", "flask", "tensorflow", "deep-learning", "medical-ai", "cnn"],
+  "stack": "heroku",
+  "env": {
+    "SECRET_KEY": {
+      "description": "Secret key for Flask app",
+      "generator": "secret"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/raxod502/heroku-buildpack-git-lfs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

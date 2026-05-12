@@ -34,6 +34,41 @@ Curated list of AI/ML resources, tools, and projects
 
 ---
 
+## 🚀 Live Demo
+
+### Oral Cancer Detection AI - Deploy Your Own Instance
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Deploy a working web app in 2 minutes:
+```bash
+# One-click deploy to Heroku
+heroku create oral-cancer-detection-ai
+heroku buildpacks:add https://github.com/raxod502/heroku-buildpack-git-lfs
+heroku buildpacks:add heroku/python
+git push heroku main
+heroku open
+```
+
+**Your URL:** `https://oral-cancer-detection-ai.herokuapp.com`
+
+**Features:**
+- ✅ Drag-and-drop image upload
+- ✅ Real AI predictions using trained CNN (128MB model)
+- ✅ Confidence scores & risk assessment
+- ✅ REST API for integration
+- ✅ Mobile responsive design
+
+**Or run locally:**
+```bash
+cd demo/oral-cancer-detection-demo
+pip install -r requirements.txt
+python app.py
+# http://localhost:5000
+```
+
+---
+
 ## 🚀 Quick Links
 
 | Project | Demo | Code | Paper |
