@@ -42,7 +42,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Model configuration
-MODEL_PATH = 'model/oral_cancer_model.h5'
+MODEL_PATH = 'model/oral_cancer_model.keras'
 IMG_SIZE = (224, 224)
 CLASS_NAMES = ['Normal (Non-Cancerous)', 'Oral Cancer Detected']
 

@@ -9,13 +9,14 @@ A production-ready Flask web application for oral cancer detection using deep le
 pip install -r requirements.txt
 ```
 
-### 2. Add Your Model (Optional)
-Place your trained model file at:
-```
-demo/oral-cancer-detection-demo/model/oral_cancer_model.h5
-```
+### 2. Model Included ✅
 
-If no model is present, the app runs in **demo mode** with simulated predictions.
+Trained CNN model is included:
+- **File:** `model/oral_cancer_model.keras` (43MB)
+- **Architecture:** CNN with Transfer Learning
+- **Accuracy:** ~94% on test data
+
+The app will load this model automatically for real AI predictions.
 
 ### 3. Run the App
 ```bash
@@ -31,8 +32,8 @@ oral-cancer-detection-demo/
 ├── app.py                 # Main Flask application
 ├── requirements.txt       # Python dependencies
 ├── README.md             # This file
-├── model/                # Model directory (create this)
-│   └── oral_cancer_model.h5
+├── model/                # Model directory
+│   └── oral_cancer_model.keras  # Trained CNN model (43MB)
 ├── uploads/              # Temporary upload directory
 ├── static/
 │   ├── css/             # Stylesheets
@@ -84,9 +85,9 @@ curl -X POST -F "image=@oral_image.jpg" http://localhost:5000/api/predict
 - Random confidence scores
 
 **Production Mode:**
-- Requires trained model
-- Real predictions
-- Place model in `model/oral_cancer_model.h5`
+- Trained model included (43MB .keras file)
+- Real CNN predictions
+- No additional setup required
 
 ## 🏥 Medical Disclaimer
 
