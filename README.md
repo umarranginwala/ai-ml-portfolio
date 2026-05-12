@@ -1,149 +1,183 @@
-# Umar Ranginwala - Product Manager & AI/ML Portfolio
+# Umar Ranginwala - AI/ML Research & Engineering Portfolio
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Product%20Manager-AI%2FML%20Focus-2563EB?style=for-the-badge&logo=producthunt&logoColor=white" alt="Product Manager"/>
-  <img src="https://img.shields.io/badge/M.Sc-AI%20%26%20ML-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" alt="AI/ML"/>
-  <img src="https://img.shields.io/badge/Gujarat%20University-Master's%20Degree-003366?style=for-the-badge&logo=university&logoColor=white" alt="University"/>
+  <img src="https://img.shields.io/badge/M.Sc-AI%20%26%20Machine%20Learning-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" alt="M.Sc AI/ML"/>
+  <img src="https://img.shields.io/badge/Gujarat%20University-Master's%20Thesis-003366?style=for-the-badge&logo=university&logoColor=white" alt="Gujarat University"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-Production%20Ready-10B981?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Production"/>
+  <img src="https://img.shields.io/badge/Research-Published-9C27B0?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Research"/>
 </div>
 
 <p align="center">
-  <a href="https://umarranginwala.github.io/ai-ml-portfolio/">🌐 Live Demo</a> •
-  <a href="#projects">🚀 Projects</a> •
-  <a href="#skills">💼 Skills</a> •
+  <strong>Building end-to-end AI systems from research to production deployment</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/umarranginwala/ai-ml-portfolio">🌐 Portfolio</a> •
+  <a href="#live-demos">🚀 Live Demos</a> •
+  <a href="#projects">📂 Projects</a> •
   <a href="#research">📊 Research</a>
 </p>
 
 ---
 
-## 👋 About Me
+## 🔬 Research Focus
 
-I'm a **Product Manager** with deep technical expertise in **Artificial Intelligence & Machine Learning**. I hold an **M.Sc in AI/ML from Gujarat University** and have successfully led and delivered production-ready AI projects from concept to deployment.
+I specialize in **Deep Learning** and **Computer Vision** with a focus on developing production-ready AI systems. My M.Sc research at Gujarat University (2022-2024) explored:
 
-**What sets me apart:**
-- 🎯 **Technical PM**: Can translate business requirements into technical specifications
-- 🤖 **AI Expertise**: Hands-on experience with LSTM, GRU, CNN, ResNet50, Transfer Learning
-- 🚀 **End-to-End Delivery**: From research → prototype → production deployment
-- 📊 **Data-Driven**: Using analytics to drive product decisions
-- 🏥 **Domain Knowledge**: Healthcare AI and Financial forecasting
+- **Time Series Forecasting:** LSTM and GRU architectures for financial markets
+- **Medical AI:** CNN-based oral cancer detection systems
+- **Transfer Learning:** Leveraging pre-trained models for domain-specific tasks
 
-**Current Focus:** Building AI-powered products that solve real-world problems
-
----
-
-## 🚀 Featured Projects
-
-### 1. Stock Price Prediction Platform
-**Master's Thesis | Production-Ready Financial AI System**
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Project-10B981?style=for-the-badge&logo=vercel&logoColor=white)](./Stock_Prediction_DL_2/)
-[![Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](./src/stock-prediction/)
-[![Research](https://img.shields.io/badge/Research%20Paper-PDF-FF6B6B?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](./Research%20Paper/NSE_stock_price_prediction_umar.pdf)
-
-**Product Overview:**
-Developed and deployed a comprehensive stock price prediction platform using state-of-the-art deep learning. Led the entire product lifecycle from research to implementation.
-
-**Key Achievements:**
-- ✅ **Product Strategy**: Defined roadmap for AI-powered financial forecasting tool
-- ✅ **Technical Leadership**: Architected LSTM & GRU models with 94%+ accuracy
-- ✅ **Data Engineering**: Processed 6,000+ data points spanning 24 years
-- ✅ **API Integration**: Yahoo Finance real-time data pipeline
-- ✅ **Performance**: Achieved RMSE < 2.5, MAE < 1.8 on test data
-- ✅ **Documentation**: Complete technical specs & user guides
-
-**Business Impact:**
-- Reduced prediction error by 35% compared to traditional statistical methods
-- Enabled algorithmic trading strategy development
-- Published research paper demonstrating ROI potential
-
-**Tech Stack:** Python, TensorFlow, Keras, LSTM, GRU, Pandas, NumPy, Scikit-learn, Matplotlib
-
-**[📁 View Full Documentation](./projects/stock-prediction/README.md)**
+**Core Competencies:**
+- 🧠 Deep Learning (LSTM, GRU, CNN, ResNet50, Transfer Learning)
+- 📊 Financial Forecasting & Time Series Analysis
+- 🏥 Healthcare AI & Medical Image Classification
+- 🚀 Production Deployment (Flask, REST APIs, Cloud)
+- 📈 Data Engineering & Feature Engineering
 
 ---
 
-### 2. Oral Cancer Detection System
-**Healthcare AI | Web Application | Production Demo**
+## 🚀 Live Demos
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Try%20Live%20Demo-Click%20Here-10B981?style=for-the-badge)](./demo/oral-cancer-detection-demo/)
-[![Flask](https://img.shields.io/badge/Flask-Web%20App-000000?style=for-the-badge&logo=flask&logoColor=white)](./demo/oral-cancer-detection-demo/app.py)
-[![CNN](https://img.shields.io/badge/CNN-Medical%20AI-5C3EE8?style=for-the-badge)](./src/oral-cancer-detection/)
+### Oral Cancer Detection - Interactive Web Application
 
-**Product Overview:**
-Built and deployed a complete healthcare AI product that assists in early oral cancer detection through medical image analysis. **🎮 [Try the live demo now!](./demo/oral-cancer-detection-demo/)**
+**🎮 [Try Live Demo →](./demo/oral-cancer-detection-demo/)**
 
-**What Makes This Special:**
-🌐 **Fully Functional Web App** - Users can upload images and get real-time AI analysis
+A fully functional web application for oral cancer detection using deep learning:
 
-**Key Features:**
-- ✅ **Drag & Drop Interface**: Modern, intuitive UX for medical professionals
-- ✅ **Real-time Analysis**: Results in < 2 seconds with confidence scores
-- ✅ **Risk Assessment**: Automated risk level classification
-- ✅ **Medical Recommendations**: AI-generated next steps for patients
-- ✅ **Responsive Design**: Works on desktop, tablet, and mobile
-- ✅ **REST API**: Ready for integration with hospital systems
+- ✅ Upload images via drag-and-drop interface
+- ✅ Real-time AI analysis with confidence scores
+- ✅ Automated risk assessment & medical recommendations
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ REST API for programmatic access
+
+**Tech Stack:** Flask, TensorFlow, Keras, ResNet50, HTML5, CSS3, JavaScript
+
+```bash
+# Run locally
+cd demo/oral-cancer-detection-demo
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+## 📂 Featured Projects
+
+### 1. Stock Price Prediction Using LSTM and GRU
+**Master's Thesis | NSE (National Stock Exchange of India)**
+
+[![Research Paper](https://img.shields.io/badge/Research-Paper-FF6B6B?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](./Research%20Paper/NSE_stock_price_prediction_umar.pdf)
+[![Thesis](https://img.shields.io/badge/Thesis-Report-9C27B0?style=for-the-badge&logo=googlescholar&logoColor=white)](./Stock_Prediction_DL_2/Report/Final%20Report/stock-prediction-dl-report.pdf)
+[![Code](https://img.shields.io/badge/Code-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](./src/stock-prediction/)
+
+**Project Overview:**
+Developed and deployed deep learning models (LSTM and GRU) to predict stock prices for NSE-listed companies using 24+ years of historical data (2000-2024).
+
+**Key Results:**
+- 📊 **Dataset:** 6,036 trading days of HINDUNILVR.NS stock data
+- 🎯 **Models:** LSTM vs GRU comparative analysis
+- 📈 **Performance:** High accuracy with comprehensive evaluation metrics
+- 🔄 **Pipeline:** Automated data collection via Yahoo Finance API
+- 📄 **Publication:** Research paper on NSE stock prediction
 
 **Technical Highlights:**
-- ✅ Deep Learning: CNN + ResNet50 Transfer Learning
-- ✅ Model Performance: High accuracy with F1 score optimization
-- ✅ Data Augmentation: Improved generalization with rotation, zoom, flip
-- ✅ Web Stack: Flask + HTML5 + Modern CSS
-- ✅ Production Ready: Error handling, validation, security
+- LSTM architecture with dropout regularization
+- GRU implementation for faster training
+- Comprehensive EDA with technical indicators (RSI, Moving Averages, Bollinger Bands)
+- Feature normalization and sequence preparation
+- Train-test split with temporal validation
+
+**Tech Stack:** Python, TensorFlow, Keras, LSTM, GRU, Pandas, NumPy, Scikit-learn, Matplotlib, Yahoo Finance API
+
+**[📁 View Complete Documentation](./projects/stock-prediction/README.md)**
+
+---
+
+### 2. Oral Cancer Detection Using Deep Learning
+**Healthcare AI | Medical Image Classification | Web Application**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-10B981?style=for-the-badge&logo=vercel&logoColor=white)](./demo/oral-cancer-detection-demo/)
+[![Code](https://img.shields.io/badge/Code-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](./demo/oral-cancer-detection-demo/app.py)
+[![Flask](https://img.shields.io/badge/Flask-App-000000?style=for-the-badge&logo=flask&logoColor=white)](./demo/oral-cancer-detection-demo/)
+
+**Project Overview:**
+Built an automated oral cancer detection system using CNN and Transfer Learning with ResNet50. Includes a production-ready Flask web application for real-time predictions.
+
+**System Architecture:**
+```
+Input (224×224×3 RGB Image)
+    ↓
+ResNet50 (Transfer Learning - Frozen)
+    ↓
+GlobalAveragePooling2D
+    ↓
+Dense (1024, ReLU) → Dropout (0.5)
+    ↓
+Dense (512, ReLU) → Dropout (0.3)
+    ↓
+Dense (1, Sigmoid) → Binary Classification
+    ↓
+Output: Cancer Probability + Risk Assessment
+```
+
+**Key Features:**
+- 🖼️ **Medical Image Classification:** Oral cavity image analysis
+- 🧠 **Transfer Learning:** ResNet50 pre-trained on ImageNet
+- 📊 **Performance Metrics:** Accuracy, Precision, Recall, F1-Score
+- 🌐 **Web Interface:** Flask-based interactive application
+- 📱 **Responsive Design:** Mobile-friendly interface
+- 🔄 **Data Augmentation:** Rotation, zoom, flip for robustness
+
+**Web Application Capabilities:**
+- Drag-and-drop image upload
+- Real-time AI prediction (< 2 seconds)
+- Confidence score visualization
+- Risk level classification (High/Moderate/Low)
+- Medical recommendations based on results
+- REST API endpoint for integration
+
+**Tech Stack:** Python, TensorFlow, Keras, CNN, ResNet50, Transfer Learning, Flask, OpenCV, Pillow
 
 **[🎮 Launch Live Demo](./demo/oral-cancer-detection-demo/)** | **[📁 View Code](./demo/oral-cancer-detection-demo/)** | **[📖 Documentation](./projects/oral-cancer-detection/README.md)**
 
 ---
 
-## 💼 Product Management Skills
-
-### Technical Product Management
-- ✅ **Product Strategy**: Roadmap definition, market analysis, competitive research
-- ✅ **Agile/Scrum**: Sprint planning, backlog grooming, user story writing
-- ✅ **Data Analytics**: SQL, A/B testing, funnel analysis, KPI definition
-- ✅ **Technical Specifications**: API design, system architecture, PRD creation
-- ✅ **User Research**: Customer interviews, usability testing, feedback loops
-
-### AI/ML Product Development
-- ✅ **Model Lifecycle**: Training → Validation → Deployment → Monitoring
-- ✅ **MLOps**: Version control, CI/CD for ML, model versioning
-- ✅ **Data Strategy**: Feature engineering, data pipeline design, quality assurance
-- ✅ **AI Ethics**: Bias detection, fairness metrics, explainable AI
-
-### Tools & Technologies
-![Jira](https://img.shields.io/badge/Jira-Agile-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-Docs-172B4D?style=for-the-badge&logo=confluence&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-Product-000000?style=for-the-badge&logo=notion&logoColor=white)
-
----
-
 ## 🛠️ Technical Skills
 
-### Programming & Frameworks
+### Programming & Deep Learning
 ![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Advanced-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Production-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-Production-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-Production-000000?style=for-the-badge&logo=flask&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Expert-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ### Deep Learning Architectures
 - **Recurrent Neural Networks:** LSTM, GRU, Bidirectional RNNs
 - **Convolutional Neural Networks:** CNN, ResNet50, VGG16, Transfer Learning
-- **NLP:** Word2Vec, Language Models, Text Classification
+- **NLP:** Word2Vec, Language Models, Text Classification, Parsing
+- **Computer Vision:** Image Classification, Object Detection, Medical Imaging
 
-### Data Science
+### Data Science & Engineering
+![Pandas](https://img.shields.io/badge/Pandas-Expert-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Expert-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Expert-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 - Time Series Analysis & Forecasting
 - Exploratory Data Analysis (EDA)
-- Feature Engineering
+- Feature Engineering & Selection
 - Statistical Analysis
 - Data Visualization (Matplotlib, Seaborn, Plotly)
+- API Development & Integration
 
 ---
 
-## 📊 Research & Publications
+## 📊 Research Publications
 
-| Title | Type | Year | Links |
-|-------|------|------|-------|
+| Title | Venue/Type | Year | Links |
+|-------|------------|------|-------|
 | **NSE Stock Price Prediction Using Deep Learning** | Research Paper | 2024 | [PDF](./Research%20Paper/NSE_stock_price_prediction_umar.pdf) |
 | **Stock Price Prediction Using LSTM and GRU** | Master's Thesis | 2024 | [Report](./Stock_Prediction_DL_2/Report/Final%20Report/stock-prediction-dl-report.pdf) |
 
@@ -156,8 +190,8 @@ Built and deployed a complete healthcare AI product that assists in early oral c
 - **Duration:** 2022-2024
 - **Specialization:** Deep Learning, Natural Language Processing, Computer Vision
 - **Key Coursework:**
-  - Deep Learning & Neural Networks (LSTM, GRU, CNN)
-  - Natural Language Processing (Word2Vec, Parsing)
+  - Deep Learning & Neural Networks (LSTM, GRU, CNN, RNN)
+  - Natural Language Processing (Word2Vec, Parsing, Text Classification)
   - Reinforcement Learning
   - Machine Learning Algorithms
   - Statistical Methods for Data Science
@@ -178,29 +212,29 @@ Built and deployed a complete healthcare AI product that assists in early oral c
 
 ```
 ai-ml-portfolio/
-├── 📁 demo/                           🎮 Working Demos
-│   └── oral-cancer-detection-demo/   → Live web app
-│       ├── app.py                    → Flask application
-│       ├── templates/                → HTML pages
-│       └── README.md                 → Demo instructions
+├── 📁 demo/                          → Live interactive demos
+│   └── oral-cancer-detection-demo/  → Flask web application
+│       ├── app.py                   → Production backend
+│       ├── templates/              → HTML interface
+│       └── requirements.txt        → Dependencies
 │
-├── 📁 src/                            💻 Source Code
-│   ├── stock-prediction/            → Jupyter notebooks
-│   └── oral-cancer-detection/       → Training notebooks
+├── 📁 src/                          → Source code & notebooks
+│   ├── stock-prediction/           → Jupyter notebooks (LSTM, GRU, EDA)
+│   └── oral-cancer-detection/      → Training notebooks
 │
-├── 📁 projects/                       📚 Documentation
-│   ├── stock-prediction/            → Full project docs
-│   └── oral-cancer-detection/       → Full project docs
+├── 📁 projects/                     → Comprehensive documentation
+│   ├── stock-prediction/          → Thesis documentation
+│   └── oral-cancer-detection/     → Project documentation
 │
-├── 📁 Research Paper/                 📄 Publications
+├── 📁 Research Paper/              → Published research
 │   └── NSE_stock_price_prediction_umar.pdf
 │
-├── 📁 Stock_Prediction_DL_2/         📁 Original thesis work
-├── 📁 Oral-Cancer-Detection/         📁 Original project files
+├── 📁 Stock_Prediction_DL_2/       → Original thesis work
+├── 📁 Oral-Cancer-Detection/       → Original project files
 │
-├── 📄 README.md                       ⭐ This file
-├── 📄 index.html                      🌐 Portfolio website
-└── 📄 _config.yml                     ⚙️ GitHub Pages config
+├── 📄 README.md                     → Portfolio overview
+├── 📄 index.html                    → Portfolio website
+└── 📄 _config.yml                   → GitHub Pages config
 ```
 
 ---
@@ -209,51 +243,22 @@ ai-ml-portfolio/
 
 | Resource | Link |
 |----------|------|
-| **🌐 Live Portfolio** | https://umarranginwala.github.io/ai-ml-portfolio |
-| **🎮 Cancer Detection Demo** | https://umarranginwala.github.io/ai-ml-portfolio/demo/oral-cancer-detection-demo |
-| **💼 LinkedIn** | https://www.linkedin.com/in/umarranginwala/ |
-| **🐙 GitHub** | https://github.com/umarranginwala |
-| **📧 Contact** | [LinkedIn Message](https://www.linkedin.com/in/umarranginwala/) |
+| **GitHub Repository** | https://github.com/umarranginwala/ai-ml-portfolio |
+| **Live Demo (Cancer Detection)** | https://github.com/umarranginwala/ai-ml-portfolio/tree/main/demo/oral-cancer-detection-demo |
+| **GitHub Profile** | https://github.com/umarranginwala |
+| **LinkedIn** | https://www.linkedin.com/in/umarranginwala/ |
 
 ---
 
-## 🚀 How to Use This Portfolio
+## 📞 Connect With Me
 
-### For Recruiters & Hiring Managers:
-1. **Explore Projects**: Click on "View Full Documentation" for each project
-2. **Try Live Demo**: Click the green "Try Live Demo" button for hands-on experience
-3. **Review Research**: Download and read the published research papers
-4. **Check Code**: Browse the source code and Jupyter notebooks
-
-### For Developers:
-1. **Clone the repo**: `git clone https://github.com/umarranginwala/ai-ml-portfolio.git`
-2. **Run demos locally**: Follow README in each demo folder
-3. **Study notebooks**: Check `/src/` folder for implementation details
-4. **Deploy yourself**: Use the Flask app as a template
-
----
-
-## 📞 Let's Connect!
-
-I'm actively looking for **Product Management opportunities** in:
-- AI/ML Product Companies
-- Healthcare Technology
-- FinTech / Financial Services
-- Enterprise SaaS
-
-**Preferred Locations:** Remote, Hybrid, or On-site
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/umarranginwala/)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/umarranginwala/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/umarranginwala)
 
 ---
 
 <div align="center">
-  <p><i>⭐ Star this repository if you find it impressive!</i></p>
-  <p><b>🎓 M.Sc AI/ML | 💼 Product Manager | 🤖 Deep Learning Expert</b></p>
+  <p><i>⭐ Star this repository if you find the work impressive!</i></p>
+  <p><b>🎓 M.Sc AI/ML | 🧠 Deep Learning | 🚀 Production Systems | 📊 Research</b></p>
   <p>Gujarat University | 2022-2024</p>
 </div>
