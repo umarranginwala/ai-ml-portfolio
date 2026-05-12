@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Oral Cancer Detection Project</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #7c3aed;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1rem 0;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .page-title h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: 2rem;
+        }
+
+        .content-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .content-card h2 i {
+            color: var(--primary-color);
+        }
+
+        .content-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .tech-item {
+            background: rgba(37, 99, 235, 0.05);
+            padding: 1rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .tech-item i {
+            color: var(--primary-color);
+            font-size: 1.25rem;
+        }
+
+        .author-section {
+            background: var(--gradient-primary);
+            color: white;
+            border-radius: 16px;
+            padding: 2.5rem;
+            text-align: center;
+        }
+
+        .author-section h2 {
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-3px);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .footer p {
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>Oral Cancer Detection</span>
+            </div>
+            <nav>
+                <a href="/" style="color: white; text-decoration: none;">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-title">
+            <h1>About This Project</h1>
+            <p>AI-powered healthcare innovation from Gujarat University</p>
+        </div>
+
+        <div class="content-card">
+            <h2><i class="fas fa-bullseye"></i> Project Mission</h2>
+            <p>
+                This project aims to leverage the power of Artificial Intelligence and Deep Learning to assist 
+                in the early detection of oral cancer. By analyzing medical images of oral cavities, our AI model 
+                can identify potential cancer indicators, providing a valuable tool for healthcare screening.
+            </p>
+            <p>
+                Early detection of oral cancer significantly improves treatment outcomes and survival rates. 
+                This tool is designed to support medical professionals and increase screening accessibility, 
+                particularly in resource-limited settings.
+            </p>
+        </div>
+
+        <div class="content-card">
+            <h2><i class="fas fa-brain"></i> Technology Stack</h2>
+            <p>This application is built using cutting-edge technologies in machine learning and web development:</p>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python 3.8+</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-brain"></i>
+                    <span>TensorFlow 2.x</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-network-wired"></i>
+                    <span>ResNet50</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-flask"></i>
+                    <span>Flask</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-image"></i>
+                    <span>OpenCV</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>NumPy/Pandas</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h2><i class="fas fa-graduation-cap"></i> Academic Background</h2>
+            <p>
+                This project was developed as part of the Master of Science (M.Sc) program in Artificial Intelligence 
+                and Machine Learning at Gujarat University, India (2022-2024).
+            </p>
+            <p>
+                The research explores the practical application of Convolutional Neural Networks (CNN) and Transfer 
+                Learning in medical imaging, demonstrating how pre-trained models can be fine-tuned for specific 
+                healthcare tasks with limited training data.
+            </p>
+        </div>
+
+        <div class="author-section">
+            <h2><i class="fas fa-user"></i> About the Developer</h2>
+            <p style="font-size: 1.125rem; margin-bottom: 1rem;">
+                <strong>Umar Ranginwala</strong>
+            </p>
+            <p>
+                M.Sc Artificial Intelligence & Machine Learning<br>
+                Gujarat University, India
+            </p>
+            <p style="margin-top: 1rem;">
+                Product Manager | AI/ML Researcher | Healthcare Technology Enthusiast
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/umarranginwala" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/umarranginwala/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/umarranginwala/ai-ml-portfolio" target="_blank" title="Portfolio">
+                    <i class="fas fa-briefcase"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            © 2024 Oral Cancer Detection Project | 
+            <a href="https://github.com/umarranginwala/ai-ml-portfolio" style="color: var(--primary-color);">
+                View on GitHub
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stock Predictor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        #loading {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+        #loading-spinner {
+            width: 3rem;
+            height: 3rem;
+            border: 0.3rem solid #f3f3f3;
+            border-top: 0.3rem solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div id="loading">
+        <div id="loading-spinner"></div>
+        <div>Loading...</div>
+    </div>
+    <div class="container mt-5">
+        <h1 class="text-center">Stock Price Predictor</h1>
+        <form method="post" class="mt-4" onsubmit="showLoading()">
+            <div class="form-group">
+                <label for="ticker">Select Stock:</label>
+                <select class="form-control" id="ticker" name="ticker">
+                    <option value="ASIANPAINT.NS" {% if ticker == 'ASIANPAINT.NS' %}selected{% endif %}>Asian Paints</option>
+                    <option value="HINDUNILVR.NS" {% if ticker == 'HINDUNILVR.NS' %}selected{% endif %}>Hindustan Unilever</option>
+                    <option value="INFY.NS" {% if ticker == 'INFY.NS' %}selected{% endif %}>Infosys</option>
+                    <option value="HEROMOTOCO.NS" {% if ticker == 'HEROMOTOCO.NS' %}selected{% endif %}>Hero MotoCorp</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="start_date">Start Date:</label>
+                <input type="date" class="form-control" id="start_date" name="start_date" required>
+            </div>
+            <div class="form-group">
+                <label for="end_date">End Date:</label>
+                <input type="date" class="form-control" id="end_date" name="end_date" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+        </form>
+        
+        {% if error %}
+        <div class="alert alert-danger mt-3">{{ error }}</div>
+        {% endif %}
+        
+        {% if candlestick_div %}
+        <div class="mt-5">
+            <h2 class="text-center">Candlestick Chart</h2>
+            {{ candlestick_div | safe }}
+        </div>
+        {% endif %}
+        
+        {% if plot_div_lstm %}
+        <div class="mt-5">
+            <h2 class="text-center">LSTM Model Predictions</h2>
+            {{ plot_div_lstm | safe }}
+        </div>
+        {% endif %}
+        
+        {% if plot_div_gru %}
+        <div class="mt-5">
+            <h2 class="text-center">GRU Model Predictions</h2>
+            {{ plot_div_gru | safe }}
+        </div>
+        {% endif %}
+        
+        {% if next_day_prediction %}
+        <div class="mt-5">
+            <h2 class="text-center">Next Day Prediction</h2>
+            <p class="text-center">{{ next_day_prediction }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

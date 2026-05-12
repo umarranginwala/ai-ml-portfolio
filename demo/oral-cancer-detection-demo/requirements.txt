@@ -1,0 +1,19 @@
+# Oral Cancer Detection Demo - Requirements
+
+# Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Deep Learning
+tensorflow==2.13.0
+tensorflow-cpu==2.13.0; platform_machine != "arm64"
+keras==2.13.0
+
+# Image Processing
+Pillow==10.0.0
+
+# Data Processing
+numpy==1.24.3
+
+# Python version requirement
+# Python 3.8, 3.9, 3.10, or 3.11
