@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: oral-cancer-detection
+    runtime: python
+    version: "3.9"
+    rootDir: demo/oral-cancer-detection-demo
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.9.0
+    disk:
+      name: uploads
+      mountPath: /uploads
+      sizeGB: 1
