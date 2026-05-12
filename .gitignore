@@ -216,3 +216,26 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Drafts and Work-in-Progress
+Draft/
+Draft*/
+draft/
+draft*/
+*draft*
+*Draft*
+*~$*
+
+# Archives and old versions
+archive/
+archive_*/
+archive*/
+
+# Intermediate working files
+all final*.pdf
+Picture*.png
+Screenshot*.png
+bw image*.pdf
+
+# Keep only Final-Papers directory clean
+# All .docx and .doc files are excluded except in Final-Papers
