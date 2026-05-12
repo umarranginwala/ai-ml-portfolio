@@ -1,0 +1,2 @@
+# Python Runtime for Heroku
+python-3.9.18

@@ -1,0 +1,4 @@
+# Heroku Deployment Configuration
+# This file tells Heroku how to run your Flask app
+
+web: gunicorn app:app

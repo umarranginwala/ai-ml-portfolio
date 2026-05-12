@@ -15,5 +15,8 @@ Pillow==10.0.0
 # Data Processing
 numpy==1.24.3
 
+# Production Server (for Heroku/PythonAnywhere)
+gunicorn==21.2.0
+
 # Python version requirement
 # Python 3.8, 3.9, 3.10, or 3.11
