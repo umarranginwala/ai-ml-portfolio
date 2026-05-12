@@ -41,8 +41,10 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 # Create upload folder if it doesn't exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Model configuration
-MODEL_PATH = 'model/oral_cancer_model.keras'
+# Model configuration - Try .h5 first (Git LFS), fallback to .keras
+MODEL_PATH = 'model/oral_cancer_model.h5'
+if not os.path.exists(MODEL_PATH):
+    MODEL_PATH = 'model/oral_cancer_model.keras'
 IMG_SIZE = (224, 224)
 CLASS_NAMES = ['Normal (Non-Cancerous)', 'Oral Cancer Detected']
 
