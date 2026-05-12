@@ -67,8 +67,8 @@ python app.py
 ### 1. Stock Price Prediction Using LSTM and GRU
 **Master's Thesis | NSE (National Stock Exchange of India)**
 
-[![Research Paper](https://img.shields.io/badge/Research-Paper-FF6B6B?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](./Research%20Paper/NSE_stock_price_prediction_umar.pdf)
-[![Thesis](https://img.shields.io/badge/Thesis-Report-9C27B0?style=for-the-badge&logo=googlescholar&logoColor=white)](./Stock_Prediction_DL_2/Report/Final%20Report/stock-prediction-dl-report.pdf)
+[![Research Paper](https://img.shields.io/badge/Research-Paper-FF6B6B?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](./Final-Papers/NSE_stock_price_prediction_umar.pdf)
+[![Thesis](https://img.shields.io/badge/Thesis-Report-9C27B0?style=for-the-badge&logo=googlescholar&logoColor=white)](./Final-Papers/stock-prediction-dl-report.pdf)
 [![Code](https://img.shields.io/badge/Code-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](./src/stock-prediction/)
 
 **Project Overview:**
@@ -178,8 +178,8 @@ Output: Cancer Probability + Risk Assessment
 
 | Title | Venue/Type | Year | Links |
 |-------|------------|------|-------|
-| **NSE Stock Price Prediction Using Deep Learning** | Research Paper | 2024 | [PDF](./Research%20Paper/NSE_stock_price_prediction_umar.pdf) |
-| **Stock Price Prediction Using LSTM and GRU** | Master's Thesis | 2024 | [Report](./Stock_Prediction_DL_2/Report/Final%20Report/stock-prediction-dl-report.pdf) |
+| **NSE Stock Price Prediction Using Deep Learning** | Research Paper | 2024 | [PDF](./Final-Papers/NSE_stock_price_prediction_umar.pdf) |
+| **Stock Price Prediction Using LSTM and GRU** | Master's Thesis | 2024 | [Report](./Final-Papers/stock-prediction-dl-report.pdf) |
 
 ---
 
@@ -212,7 +212,7 @@ Output: Cancer Probability + Risk Assessment
 
 ```
 ai-ml-portfolio/
-├── 📁 demo/                          → Live interactive demos
+├── 📁 demo/                          → Production-ready demos
 │   └── oral-cancer-detection-demo/  → Flask web application
 │       ├── app.py                   → Production backend
 │       ├── templates/              → HTML interface
@@ -223,14 +223,18 @@ ai-ml-portfolio/
 │   └── oral-cancer-detection/      → Training notebooks
 │
 ├── 📁 projects/                     → Comprehensive documentation
-│   ├── stock-prediction/          → Thesis documentation
-│   └── oral-cancer-detection/     → Project documentation
+│   ├── stock-prediction/          → Complete project documentation
+│   └── oral-cancer-detection/     → Healthcare AI documentation
 │
-├── 📁 Research Paper/              → Published research
-│   └── NSE_stock_price_prediction_umar.pdf
+├── 📁 Final-Papers/                → Completed research & certificates
+│   ├── stock-prediction-dl-report.pdf          → Master's Thesis
+│   ├── NSE_stock_price_prediction_umar.pdf     → Published Research
+│   ├── Umar_Oral_Cancer_Report.pdf             → Healthcare AI Report
+│   ├── Stock Price prediction using LSTM and GRU.pdf → Research Summary
+│   └── project_certificate.pdf                  → University Certificate
 │
-├── 📁 Stock_Prediction_DL_2/       → Original thesis work
-├── 📁 Oral-Cancer-Detection/       → Original project files
+├── 📁 Stock_Prediction_DL_2/       → Original thesis work (source)
+├── 📁 Oral-Cancer-Detection/       → Original project files (source)
 │
 ├── 📄 README.md                     → Portfolio overview
 ├── 📄 index.html                    → Portfolio website
