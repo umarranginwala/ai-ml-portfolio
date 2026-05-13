@@ -1,0 +1,13 @@
+{
+  "name": "RAG Customer Support Bot",
+  "description": "AI-powered customer support with retrieval-augmented generation (RAG)",
+  "repository": "https://github.com/umarranginwala/rag-customer-support-bot",
+  "logo": "https://img.icons8.com/color/96/chatbot.png",
+  "keywords": ["python", "streamlit", "openai", "rag", "llm", "customer-support"],
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API Key for GPT-4 and Embeddings",
+      "required": true
+    }
+  }
+}
